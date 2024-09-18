@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "watch:sass": "sass --watch src/assets/sass/main.scss:./src/assets/main.css",
+        "watch:sass": "sass --watch src/assets/sass/main.scss:./src/assets/css/main.css",
         "build:sass": "sass src/assets/sass:./src/assets/css",
         "watch:eleventy": "cross-env ELEVENTY_ENV=DEV eleventy --serve",
         "build:eleventy": "cross-env ELEVENTY_ENV=PROD eleventy",
